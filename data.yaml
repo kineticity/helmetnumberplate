@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['helmet', 'plate', 'plate', 'rider', 'rider']
+
+roboflow:
+  workspace: object-detection-helmetslicense
+  project: motorcycle-helmet-and-license-plate-detection
+  version: 6
+  license: MIT
+  url: https://universe.roboflow.com/object-detection-helmetslicense/motorcycle-helmet-and-license-plate-detection/dataset/6
